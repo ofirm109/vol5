@@ -1,0 +1,244 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>סקר שביעות רצון</title>
+    <meta name="description" content="סקר הבודק שביעות רצון של הלקוחות החברה" />
+    <meta name="keywords" content="שם,הבא,היבשת" />
+    <meta name="author" content="ofir mizrahi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <link href="Styles/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link href="Styles/myStyle.css" rel="stylesheet" type="text/css" />
+    <!-- Scripts -->
+    <script src="jScripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container" class="row">
+        <!--header-->
+        <header class=" col-lg-6" style="padding-left:0px;">
+            <div class="jumbotron">
+                <a href="#"><img src="image/logo.png" id="logo" /></a>
+                <img src="image/info_graphic_1.svg" class="imgJumbotron" />
+                <h1 class="textcenter">סקר שביעות רצון</h1>
+                <p class="textcenter">
+                    נשמח אם תענו על מספר שאלות הבודקות את שביעות רצונכם מהשרות הניתן לכם בחברה שלנו. אנו נשמח לשרת אתכם גם בעתיד באופן מקצועי ואמין.
+
+
+                </p>
+                <button id="buttonHead" type="button" class="btn btn-primary btn-lg btnJamboTron">אתחל עכשיו</button>
+
+            </div>
+        </header>
+
+        <div id="myFrom" class="col-11 col-lg-5">
+
+            <form>
+
+                <div id="page1">
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h3>5/1</h3>
+                    </div>
+                    <h2>מלא את הפרטים שלך</h2>
+
+                    <input data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" type="text" class="form-control" id="fname" name="firstname" placeholder="שם פרטי">
+                    <input data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" type="text" class="form-control" id="lname" name="lastname" placeholder="שם משפחה">
+                    <input data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" type="email" class="form-control" id="Email" name="Email" placeholder="דואר אלקטרוני">
+
+                    <select data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" class="form-control" id="contry">
+                        <option value="eror">היבשת שלך</option>
+                        <option value="אירופה">אירופה</option>
+                        <option value="אסיה">אסיה</option>
+                        <option value="צפון אמריקה">צפון אמריקה</option>
+                        <option value="דרום אמריקה">דרום אמריקה</option>
+                        <option value="אפריקה">אפריקה</option>
+                    </select>
+                    <div class="row" id="myYear">
+                        <input data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" type="number" class="form-control col-3" id="year" name="year" placeholder="גיל">
+                        <div data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" class="col-8 jender">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="זכר">
+                                <label class="custom-control-label" for="customRadioInline1">זכר</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="נקבה">
+                                <label class="custom-control-label" for="customRadioInline2">נקבה</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="tooltip" data-placement="top" title="נא למלא את השדה" class="custom-control custom-checkbox AC">
+                        <input value="true" type="checkbox" class="custom-control-input" id="AC">
+                        <label class="custom-control-label" for="AC">אני מאשר כי קראתי את <a href="#">התקנון</a></label>
+                    </div>
+
+                </div>
+                <!--דף 2-->
+                <div id="page2">
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h3>5/2</h3>
+                    </div>
+                    <h2 id="myEror" data-toggle="tooltip" data-placement="top" title="נא למלא את השדה">כיצד לדרג את שביעות הרצון הכללית שלך לגבי השירות המסופק?</h2>
+                    <div id="radioinPage2">
+                        <div class="page2 custom-control custom-radio">
+                            <input  type="radio" id="page2Radio1" name="page2Radio" class="custom-control-input" value="לא מרוצה">
+                            <label class="custom-control-label" for="page2Radio1">לא מרוצה</label>
+                        </div>
+                        <div class="page2 custom-control custom-radio">
+                            <input type="radio" id="page2Radio2" name="page2Radio" class="custom-control-input" value="די מרוצה">
+                            <label class="custom-control-label" for="page2Radio2">די מרוצה</label>
+                        </div>
+                        <div class="page2 custom-control custom-radio">
+                            <input type="radio" id="page2Radio3" name="page2Radio" class="custom-control-input" value="מרוצה">
+                            <label class="custom-control-label" for="page2Radio3">מרוצה</label>
+                        </div>
+                        <div class="page2 custom-control custom-radio">
+                            <input type="radio" id="page2Radio4" name="page2Radio" class="custom-control-input" value="מאד מרוצה">
+                            <label class="custom-control-label" for="page2Radio4">מאד מרוצה</label>
+                        </div>
+                        <div class="page2 custom-control custom-radio">
+                            <input type="radio" id="page2Radio5" name="page2Radio" class="custom-control-input" value="השרות מצויין">
+                            <label class="custom-control-label" for="page2Radio5">השרות מצויין</label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--page3-->
+                <div id="page3">
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h3>5/3</h3>
+                    </div>
+                    <h2 id="myEror3" data-toggle="tooltip" data-placement="top" title="נא למלא את השדה">איך שמעת על החברה שלנו?</h2>
+
+                    <div id="radioinPage3" data-toggle="tooltip" data-placement="top" title="נא למלא את השדה">
+                        <div class="page3 custom-control custom-checkbox">
+                            <input name="myBox3" value="חיפוש בגוגל" type="checkbox" class="custom-control-input" id="page3Check1">
+                            <label class="custom-control-label" for="page3Check1">חיפוש בגוגל</label>
+                        </div>
+                        <div class="page3 custom-control custom-checkbox">
+                            <input name="myBox3" value="המלצה של חברים" type="checkbox" class="custom-control-input" id="page3Check2">
+                            <label class="custom-control-label" for="page3Check2">המלצה של חברים</label>
+                        </div>
+                        <div class="page3 custom-control custom-checkbox">
+                            <input name="myBox3" value="פרסום מודפס" type="checkbox" class="custom-control-input" id="page3Check3">
+                            <label class="custom-control-label" for="page3Check3">פרסום מודפס</label>
+                        </div>
+                        <div class="page3 custom-control custom-checkbox">
+                            <input name="myBox3" value="בעיתון" type="checkbox" class="custom-control-input" id="page3Check4">
+                            <label class="custom-control-label" for="page3Check4">בעיתון</label>
+                        </div>
+                        <div class="page3 custom-control custom-checkbox">
+                            <input name="myBox3" value="אחר" type="checkbox" class="custom-control-input" id="page3Check5">
+                            <label class="custom-control-label" for="page3Check5">אחר</label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--page4-->
+                <div id="page4">
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h3>5/4</h3>
+                    </div>
+                    <h2 id="myEror4" data-toggle="tooltip" data-placement="top" title="נא למלא את השדה">האם היית ממליץ על החברה שלנו לחבר או הורה?</h2>
+
+                    <div id="radioinPage4" data-toggle="tooltip" data-placement="top" title="נא למלא את השדה">
+                        <div class="page4 custom-control custom-radio">
+                            <input type="radio" id="page4Radio1" name="page4Radio" class="custom-control-input" value="לא">
+                            <label class="custom-control-label" for="page4Radio1">לא</label>
+                        </div>
+                        <div class="page4 custom-control custom-radio">
+                            <input type="radio" id="page4Radio2" name="page4Radio" class="custom-control-input" value="אולי">
+                            <label class="custom-control-label" for="page4Radio2">אולי</label>
+                        </div>
+                        <div class="page4 custom-control custom-radio">
+                            <input type="radio" id="page4Radio3" name="page4Radio" class="custom-control-input" value="כנראה">
+                            <label class="custom-control-label" for="page4Radio3">כנראה</label>
+                        </div>
+                        <div class="page4 custom-control custom-radio">
+                            <input type="radio" id="page4Radio4" name="page4Radio" class="custom-control-input" value="בטוח">
+                            <label class="custom-control-label" for="page4Radio4">בטוח</label>
+                        </div>
+                    </div>
+                    <div class="myWhay">
+                        <label>אם לא, נשמח שתתאר בכמה מילים מדוע לא</label>
+                        <textarea id="whay" placeholder="הקלד כאן..." name="whay" cols="40" rows="5"></textarea>
+                    </div>
+                </div>
+                
+
+                <!--page5-->
+                <div id="page5">
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h3>5/5</h3>
+                    </div>
+                    <h2>סיכום</h2>
+                    <div>
+                        <ol>
+                            <li>
+                                <div >
+                                    <h4>כיצד היית מדרג את שביעות הרצון הכללית שלך לגבי השירות המסופק?</h4>
+                                    <p id="answer1"></p>
+                                </div>
+                                
+                            </li>
+                            <hr />
+                            <li>
+                                <div>
+                                    <h4>איך שמעת על החברה שלנו?</h4>
+                                    <p id="answer2"></p>
+                                </div>
+                                
+                            </li>
+                            <hr />
+                            <li>
+                                <div>
+                                    <h4>האם היית ממליץ על החברה שלנו לחבר או הורה?</h4>
+                                    <p id="answer3"></p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    
+                </div>
+
+
+
+                <hr />
+                <button href="#here" type="button" class="btn btn-primary btn-lg btnNext">הבא</button>
+                <button href="#here" type="button" class="btn btn-primary btn-lg submit" onclick="saveData()">שלח</button>
+                <button href="#here" type="button" class="btn btn-light btn-lg btnPreview" onclick="per2()">הקודם</button>
+                <div id="here"></div>
+            </form>
+        </div>
+
+        <div id="sent">
+            <h5>הנתונים נשמרים <br/>נא המתן</h5>
+
+        </div>
+    </div>
+</body>
+</html>

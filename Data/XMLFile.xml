@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <LastName>lhll</LastName>
+    <FirstName>khlk</FirstName>
+    <Email>hlhkl</Email>
+    <Country>אסיה</Country>
+    <age>22</age>
+    <gender>זכר</gender>
+    <Q1>לא מרוצה</Q1>
+    <Q2>
+      <Q2A>המלצה של חברים</Q2A>
+    </Q2>
+    <Q3>כנראה</Q3>
+    <Q4>undefined</Q4>
+  </user>
+  <user>
+    <LastName>lkjl</LastName>
+    <FirstName>jkl</FirstName>
+    <Email>jkljl</Email>
+    <Country>אסיה</Country>
+    <age>22</age>
+    <gender>זכר</gender>
+    <Q1>לא מרוצה</Q1>
+    <Q2>
+      <Q2A>המלצה של חברים</Q2A>
+    </Q2>
+    <Q3>אולי</Q3>
+    <Q4>undefined</Q4>
+  </user>
+  <user>
+    <LastName>hlkhlk</LastName>
+    <FirstName>klkll</FirstName>
+    <Email>hlhl</Email>
+    <Country>אסיה</Country>
+    <age>22</age>
+    <gender>זכר</gender>
+    <Q1>לא מרוצה</Q1>
+    <Q2>
+      <Q2A>פרסום מודפס</Q2A>
+    </Q2>
+    <Q3>בטוח</Q3>
+    <Q4>undefined</Q4>
+  </user>
+  <user>
+    <LastName>ךלילךי</LastName>
+    <FirstName>יךלי</FirstName>
+    <Email>ךלילך</Email>
+    <Country>אסיה</Country>
+    <age>22</age>
+    <gender>זכר</gender>
+    <Q1>לא מרוצה</Q1>
+    <Q2>
+      <Q2A>חיפוש בגוגל</Q2A>
+    </Q2>
+    <Q3>אולי</Q3>
+    <Q4>undefined</Q4>
+  </user>
+  <user>
+    <LastName>klhlh</LastName>
+    <FirstName>hklh</FirstName>
+    <Email>hkll</Email>
+    <Country>אסיה</Country>
+    <age>22</age>
+    <gender>זכר</gender>
+    <Q1>די מרוצה</Q1>
+    <Q2>
+      <Q2A>המלצה של חברים</Q2A>
+    </Q2>
+    <Q3>כנראה</Q3>
+    <Q4>undefined</Q4>
+  </user>
+  <user>
+    <LastName>דוגמה</LastName>
+    <FirstName>דוגמה</FirstName>
+    <Email>dugma1@gmail.com</Email>
+    <Country>אסיה</Country>
+    <age>20</age>
+    <gender>זכר</gender>
+    <Q1>השרות מצויין</Q1>
+    <Q2>
+      <Q2A>חיפוש בגוגל</Q2A>
+      <Q2A>המלצה של חברים</Q2A>
+    </Q2>
+    <Q3>בטוח</Q3>
+    <Q4>undefined</Q4>
+  </user>
+</users>
